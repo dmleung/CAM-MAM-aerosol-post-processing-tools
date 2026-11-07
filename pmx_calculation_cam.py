@@ -120,7 +120,7 @@ dst_a1, dst_a2, dst_a3 = [mmr_to_ugm3(ds[f'dst_a{i}'], STP_OR_AMB) for i in (1, 
 soa1_a1, soa1_a2 = [mmr_to_ugm3(ds[f'soa1_a{i}'], STP_OR_AMB) for i in (1, 2)]
 
 
-# dry diameter
+# dry number mean geometric diameter, m
 dgnum1 = ds['dgnum1']
 dgnum2 = ds['dgnum2']
 dgnum3 = ds['dgnum3']
